@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+   color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 33px;
+    box-shadow: 0px 1px 5px 0px  rgb(252, 252, 252);
+}
+.login{
+    display: none;
+    position: absolute;
+    margin-left: 80%;
+    width: 200px;
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+
+.login h2{
+    color: black;
+}
+
+.login input{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 160px;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 13px;
+}
+.login button {
+    width: 140px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 111, 0);
+    color: white;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.nav{
+    display: none;
+    position: absolute;
+    margin-left: 82%;
+    width: 160px;
+    padding: 22px;
+    background-color: #f1efef;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+
+.nav p{
+    width: 110px;
+    color: black;
+    margin-left: 20%;
+    padding: 11px;
+    border-radius: 4px;
+}
+
+.logo h1{
+    font-size: 37px;
+    color: rgb(255, 106, 0);
+    margin-top: -2px;
+}
+.icon{
+    margin-left: -11px;
+}
+.icon i{
+    font-size: 22px;
+    margin-inline: 8px;
+    background-color: #fff;
+    color: black;
+    padding: 9px;
+    border-radius: 2px;
+}
+.icon i:hover{
+    color: rgb(255, 98, 0);
+    cursor: pointer;
+}
+nav input{
+    width: 600px;
+    padding: 11px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.input i{
+    margin-left: -28px;
+    color: black;
+    font-size: 20px;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box{
+
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 10px 15px;
+    margin-top: 15px;
+
+
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #cd3608;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    width: 140px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    margin-inline: 11px;
+    background-color: rgb(255, 111, 0);
+}
+
+/* footer */
+
+/* .foot-panell{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+} */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 55px;
+    margin-top: 77px;
+    
+}
+.footer .txt{
+    color: black;
+}
+.txt p{
+    margin-top: 12px;
+}

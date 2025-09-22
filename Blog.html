@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Blog.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="food.js"></script>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Fitness Blog</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <div class="login" style="display: flex;">
+            <h2>log In</h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password">
+            <br>
+            <button>Log In</button>
+        </div>
+        <div class="nav" style="display: block;">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blog</p>
+            <p>Customer</p>
+        </div>
+
+        <div class="shop-section">
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img"
+                        style="background-image: url(bottle150.webp);">
+                    </div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(bottle500.webp);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(yoga\ mat200.webp);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(yoga\ mat1000.webp);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(nivia\ futball.webp);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(cycle.jpg);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(rassi.avif);">
+                    </div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img"
+                        style="background-image: url(boxing.avif);">
+                    </div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img"
+                        style="background-image: url(jammer.avif);">
+                    </div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(bottle150.webp);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(bottle500.webp);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(yoga\ mat1000.webp);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(yoga\ mat200.webp);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(cycle.jpg);"></div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img" style="background-image: url(adidas.webp);">
+                    </div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ABCD</h2>
+                    <div class="box-img"
+                        style="background-image: url(boxing.avif);">
+                    </div>
+                    <p>See more</p>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button onclick="pre()">Prev</button>
+            <button onclick="next()">Next</button>
+
+        </div>
+
+        <!-- <footer></footer> -->
+
+        <div class="footer">
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Cumque</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Product</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Near</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Websites</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     background-color: rgb(138, 14, 14); 
+    font-size: 'Roboto',sans-serif;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 14);
+    padding: 22px;
+    box-shadow: 0px,2px,6px,2px rgb(12, 36, 171);
+    color: white;
+}
+
+nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
+
+nav ul{
+    margin-right: 33px;
+    margin-top: 5px;
+}
+
+.logo{
+    font-size: 25px;
+    margin-left: 33px;
+    text-decoration: none;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(204, 32, 32);
+}
+
+.logo a span{
+    color: aliceblue;
+}
+
+ul li button{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(4, 180, 4);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul li button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(39, 162, 39);
+    cursor: pointer;
+}
+
+ul li a:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+
+
+.ourblog{
+    display: flex;
+    justify-content: center;
+}
+
+.ourblog .blogcard{
+    width: 300px;
+    height: 400px;
+    margin-inline: 22px;
+    background-color: grey;
+    
+}
+
+.blogcard img{
+    width: 100%;
+}
+
+.abc{
+    color: rgb(209, 233, 209);
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.abc span{
+    color: rgb(42, 163, 56);
+}
+
+.blogcard p{
+    margin-top: 22px;
+    font-size: 18px;
+}
+
+.blogcard a{
+    text-align: none;
+    width: 100px;
+    padding: 8px;
+    background-color: green;
+    color: white;
+    position: absolute;
+}
+
+.blogtext{
+    margin-top: 11px;
+    margin-left: 6px;
+}
+
+.blogtext h3{
+    color: black;
+    font-size: 25px;
+}
+
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-inline: 22px;
+}
+
+.blogs img{
+    width: 85%;
+    padding: 22px;
+}
+
+.blogtext2{
+    padding: 12px;
+    margin-top: 33px;
+}
+
+.blogs:hover{
+    transition: 0.6s;
+    width: 520px;
+    height: 320px;
+}
+
+.blogtext2 a{
+    width: 130px;
+    height: 18px;
+    padding: 4px;
+    background-color: aqua;
+    color: rgb(211, 179, 179);
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    top: 33px;
+}
+
+.haed h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+    font-size: 33px;
+    color: rgb(243, 235, 235);
+}
+
+.haed span{
+    color: rgb(42, 163, 56);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.blogtext2 h2{
+    color: black;
+}
+
+.blogtext2 p{
+    color: blueviolet;
+}
